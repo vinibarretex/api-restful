@@ -2,14 +2,14 @@ const express = require('express')
 // const path = require('path')
 
 // módulos criados
-// const db = require('./database')
+const db = require('./database')
 const routes = require('./routes')
 
 
 const app = express()
 
 // conexão com o banco de dados
-// db.connect()
+db.connect()
 
 
 // habilita server para receber dados via post (formulário)
